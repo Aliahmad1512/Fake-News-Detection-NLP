@@ -12,7 +12,7 @@ At Bytedance, we have created a large-scale database to store existing fake news
 5. Develop and Validate Samples: Divide converted data into 2 parts: Development Sample (70%) &Validation Sample (30%). Build your analysis model using the Development Sample, and validate iton the validation sample and then predict on test sample. You can use neural network to create amodel.
 6. Improving model accuracy: Perform various iterations by eliminating or adding thevariables(words) to see if the model accuracy is improving or not.
 
-## Variable Description:
+## Variable Description :
 You’re provided with two excel files named as Real_News and Fake_news. In both the files you will find -
 * Title: The title of the news article.
 * News_Text: Contains the detail of news article.
